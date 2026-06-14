@@ -1,0 +1,43 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "hermes-agent",
+  "elements": [
+    {"type":"text","id":"t0","x":280,"y":20,"width":240,"height":30,"text":"홍석진 스킬 그래프","fontSize":24,"fontFamily":1,"strokeColor":"#1e1e1e","originalText":"홍석진 스킬 그래프","autoResize":true},
+    {"type":"text","id":"t0b","x":240,"y":52,"width":320,"height":22,"text":"Reader, not Leader  |  시장을 읽고 연결하는 사람","fontSize":14,"fontFamily":1,"strokeColor":"#868e96","originalText":"Reader, not Leader  |  시장을 읽고 연결하는 사람","autoResize":true},
+
+    {"type":"ellipse","id":"core","x":310,"y":130,"width":160,"height":160,"backgroundColor":"#d0bfff","fillStyle":"solid","strokeColor":"#7950f2","strokeWidth":3,"boundElements":[{"id":"t_core","type":"text"}]},
+    {"type":"text","id":"t_core","x":330,"y":195,"width":120,"height":25,"text":"Core","fontSize":20,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","containerId":"core","originalText":"Core","autoResize":true},
+
+    {"type":"rectangle","id":"s1","x":60,"y":380,"width":160,"height":70,"roundness":{"type":3},"backgroundColor":"#a5d8ff","fillStyle":"solid","strokeColor":"#1971c2","boundElements":[{"id":"t_s1","type":"text"}]},
+    {"type":"text","id":"t_s1","x":65,"y":400,"width":150,"height":25,"text":"시장 분석","fontSize":18,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","containerId":"s1","originalText":"시장 분석","autoResize":true},
+
+    {"type":"rectangle","id":"s2","x":260,"y":380,"width":160,"height":70,"roundness":{"type":3},"backgroundColor":"#b2f2bb","fillStyle":"solid","strokeColor":"#2f9e44","boundElements":[{"id":"t_s2","type":"text"}]},
+    {"type":"text","id":"t_s2","x":265,"y":400,"width":150,"height":25,"text":"B2B 협상","fontSize":18,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","containerId":"s2","originalText":"B2B 협상","autoResize":true},
+
+    {"type":"rectangle","id":"s3","x":460,"y":380,"width":160,"height":"70","roundness":{"type":3},"backgroundColor":"#ffd8a8","fillStyle":"solid","strokeColor":"#e8590c","boundElements":[{"id":"t_s3","type":"text"}]},
+    {"type":"text","id":"t_s3","x":465,"y":400,"width":150,"height":25,"text":"데이터 분석","fontSize":18,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","containerId":"s3","originalText":"데이터 분석","autoResize":true},
+
+    {"type":"rectangle","id":"s4","x":60,"y":510,"width":160,"height":"70","roundness":{"type":3},"backgroundColor":"#fff3bf","fillStyle":"solid","strokeColor":"#f08c00","boundElements":[{"id":"t_s4","type":"text"}]},
+    {"type":"text","id":"t_s4","x":65,"y":530,"width":150,"height":25,"text":"글로벌 커뮤","fontSize":18,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","containerId":"s4","originalText":"글로벌 커뮤","autoResize":true},
+
+    {"type":"rectangle","id":"s5","x":260,"y":510,"width":160,"height":"70","roundness":{"type":3},"backgroundColor":"#c3fae8","fillStyle":"solid","strokeColor":"#0ca678","boundElements":[{"id":"t_s5","type":"text"}]},
+    {"type":"text","id":"t_s5","x":265,"y":530,"width":150,"height":25,"text":"프로세스 개선","fontSize":18,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","containerId":"s5","originalText":"프로세스 개선","autoResize":true},
+
+    {"type":"rectangle","id":"s6","x":460,"y":510,"width":160,"height":"70","roundness":{"type":3},"backgroundColor":"#ffc9c9","fillStyle":"solid","strokeColor":"#e03131","boundElements":[{"id":"t_s6","type":"text"}]},
+    {"type":"text","id":"t_s6","x":465,"y":530,"width":150,"height":25,"text":"사업기획","fontSize":18,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","containerId":"s6","originalText":"사업기획","autoResize":true},
+
+    {"type":"arrow","id":"a1","x":390,"y":210,"width":0,"height":165,"points":[[0,0],[0,165]],"endArrowhead":"arrow","strokeColor":"#7950f2","strokeWidth":2,"startBinding":{"elementId":"core","fixedPoint":[0.5,1]},"endBinding":{"elementId":"s2","fixedPoint":[0.5,0]}},
+    {"type":"arrow","id":"a2","x":310,"y":290,"width":250,"height":85,"points":[[0,0],[250,85]],"endArrowhead":"arrow","strokeColor":"#7950f2","strokeWidth":2,"endBinding":{"elementId":"s3","fixedPoint":[0.5,0]}},
+    {"type":"arrow","id":"a3","x":230,"y":290,"width":170,"height":85,"points":[[0,0],[-170,85]],"endArrowhead":"arrow","strokeColor":"#7950f2","strokeWidth":2,"endBinding":{"elementId":"s1","fixedPoint":[0.5,0]}},
+    {"type":"arrow","id":"a4","x":230,"y":210,"width":0,"height":225,"points":[[0,0],[0,225]],"endArrowhead":"arrow","strokeColor":"#7950f2","strokeWidth":2,"endBinding":{"elementId":"s4","fixedPoint":[0.5,0]}},
+    {"type":"arrow","id":"a5","x":310,"y":290,"width":0,"height":215,"points":[[0,0],[0,215]],"endArrowhead":"arrow","strokeColor":"#7950f2","strokeWidth":2,"endBinding":{"elementId":"s5","fixedPoint":[0.5,0]}},
+    {"type":"arrow","id":"a6","x":470,"y":290,"width":0,"height":215,"points":[[0,0],[0,215]],"endArrowhead":"arrow","strokeColor":"#7950f2","strokeWidth":2,"endBinding":{"elementId":"s6","fixedPoint":[0.5,0]}},
+
+    {"type":"rectangle","id":"lang","x":60,"y":650,"width":560,"height":"80","roundness":{"type":3},"backgroundColor":"#f8f0fc","fillStyle":"solid","strokeColor":"#be4bdb","strokeWidth":2,"boundElements":[{"id":"t_lang","type":"text"}]},
+    {"type":"text","id":"t_lang","x":65,"y":660,"width":550,"height":55,"text":"언어: 🇰🇷 한국어(N)  |  🇬🇧 영어(비즈니스, OPIc AL)  |  🇷🇺 러시아어(비즈니스, OPIc AL)  |  🇯🇵 일본어(기초)","fontSize":16,"fontFamily":1,"strokeColor":"#1e1e1e","textAlign":"center","verticalAlign":"middle","containerId":"lang","originalText":"언어: 🇰🇷 한국어(N)  |  🇬🇧 영어(비즈니스, OPIc AL)  |  🇷🇺 러시아어(비즈니스, OPIc AL)  |  🇯🇵 일본어(기초)","autoResize":true}
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff"
+  }
+}
