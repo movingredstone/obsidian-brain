@@ -129,8 +129,9 @@ type: meta
 - [[산업]] — `industries.md`
 - [[스킬]] — `skills.md`
 
-## 11_Job_Tracker (2)
+## 11_Job_Tracker (3)
 - [[구직 트래커]] — `README.md`
+- [[채용트래커 마스터 대시보드]] — `채용트래커_마스터_대시보드.md` 🆕
 - [[현대 영업 샘플]] — `job-hyundai-sales-sample.md`
 
 ## 12_Resume_Generator (2)
@@ -148,4 +149,4 @@ type: meta
 - [[산업 분석]] — `산업_분석.md`
 
 ---
-*Total pages: 93 | Last updated: 2026-06-05*
+*Total pages: 94 | Last updated: 2026-06-22*
